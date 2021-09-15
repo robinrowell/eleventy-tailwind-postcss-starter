@@ -10,9 +10,9 @@ In addition, you may want to ensure Emmet works on .njk files by updating/adding
 },
 ``
 ## Commands
-- install with: npm install
-- develop with: npm run dev *note:* this takes a good 10+ seconds to kickoff
-- produce with: npm run build *note:* this purges (treeshakes) the CSS
+- install with: ``npm install``
+- develop with: ``npm run dev`` *note:* this takes a good 10+ seconds to kickoff
+- produce with: ``npm run build`` *note:* this purges (treeshakes) the CSS
 
 ## Other notes
 - postcss-import is enabled. This will allow you to import CSS similar to how you might in SASS. See https://tailwindcss.com/docs/using-with-preprocessors Pay attention to the gotcha situations with its use
